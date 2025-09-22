@@ -42,7 +42,7 @@ function novoCliente(){
   return (
     <div className='
       flex justify-center items-center h-screen
-      bg-gradient-to-r from-blue-500 to-purple-500
+      bg-gradient-to-r from-[#4b6cb7] to-[#182848]
       text-white
     '>
       <Layout titulo="Cadastro Simples">
@@ -52,7 +52,7 @@ function novoCliente(){
               <Botao 
                 onClick={novoCliente}
                 className="mb-4" 
-                cor="green">
+                cor="blue">
                   Novo Cliente
               </Botao>
             </div>

@@ -25,7 +25,7 @@ export default function Tabela(props: TabelaProps){
     function clientsRender(clients: Cliente[]){
         return clients?.map((client:Cliente, i:number)=>{
             return(
-                <tr className={i % 2 == 0 ? 'bg-purple-200' : 'bg-purple-100'} key={client.id}>
+                <tr className={i % 2 == 0 ? 'bg-gray-200' : 'bg-gray-100'} key={client.id}>
                     <td className="text-left p-4">{client.id}</td>
                     <td className="text-left p-4">{client.nome}</td>
                     <td className="text-left p-4">{client.idade}</td>
@@ -66,7 +66,7 @@ export default function Tabela(props: TabelaProps){
         <table className="w-full rounded-xl overflow-hidden">
             <thead className="
                 text-gray-100
-                bg-gradient-to-r from-purple-700 to-purple-900
+                bg-gradient-to-r from-[#0847dc] to-[#0e2a62]
             ">
                 {headRender()}
             </thead>
