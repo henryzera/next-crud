@@ -8,7 +8,10 @@ interface TabelaProps{
 }
 
 export default function Tabela(props: TabelaProps){
-
+    if(!props.clientes || props.clientes.length === 0){
+        return null
+    }
+    
     const actions = props.clienteExcluido || props.clienteSelecionado
 
     function headRender(){

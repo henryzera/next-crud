@@ -9,7 +9,7 @@ export default class Cliente {
         this.#id = id
     }
 
-    static vazrio(){
+    static vazio(){
         return new Cliente('', 0)
     }
 
