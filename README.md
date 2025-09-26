@@ -27,38 +27,38 @@ NEXT_PUBLIC_AUTH_DOMAIN=xxxxxxx.firebaseapp.com
 NEXT_PUBLIC_PROJECT_ID=xxxxxxx
 ```
 
-##▶️ Executando o Projeto
+## ▶️ Executando o Projeto
 
 Clone o repositório:
-
+```
 git clone https://github.com/seu-usuario/nome-do-repo.git
 cd nome-do-repo
-
+```
 
 Instale as dependências:
-
+```
 npm install
-
+```
 
 Rode o servidor de desenvolvimento:
-
+```
 npm run dev
-
+```
 
 Acesse em: http://localhost:3000
 
-🖥️ Funcionalidades
+## 🖥️ Funcionalidades
 
-Listar clientes
+- Listar clientes
 
-Adicionar cliente
+- Adicionar cliente
 
-Editar cliente
+- Editar cliente
 
-Excluir cliente
+- Excluir cliente
 
-Persistência no Firestore
+- Persistência no Firestore
 
-Interface simples com Tailwind CSS
+- Interface simples com Tailwind CSS
 
 ![Design sem nome](https://github.com/user-attachments/assets/f09ca61d-c846-439e-8ace-97521f8baa1f)
